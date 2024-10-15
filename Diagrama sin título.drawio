@@ -1,83 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="oSK5YtWqw9FLYnE63FsE">
-    <mxGraphModel>
+    <mxGraphModel dx="2049" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Inicio" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="8" y="17" width="69" height="49" as="geometry" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Usuario ingresa al chatbot" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="127" y="17" width="218" height="49" as="geometry" />
+        <mxCell id="2" value="Inicio" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="800" y="30" width="69" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="El chatbot responde con mensaje inicial" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="395" y="8" width="204" height="67" as="geometry" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Usuario escribe un mensaje" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="649" y="17" width="227" height="49" as="geometry" />
+        <mxCell id="3" value="Usuario ingresa al chatbot" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="725.5" y="130" width="218" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="ChatGPT procesa el mensaje" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="927" y="8" width="170" height="67" as="geometry" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="ChatGPT genera una respuesta" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1147" y="8" width="177" height="67" as="geometry" />
+        <mxCell id="4" value="El chatbot responde con mensaje inicial" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="714.5" y="220" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="El chatbot muestra la respuesta al usuario" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1374" y="8" width="185" height="67" as="geometry" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Usuario puede seguir interactuando o finalizar" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1609" y="8" width="209" height="67" as="geometry" />
+        <mxCell id="5" value="Usuario escribe un mensaje" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="721" y="360" width="227" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Proceso de interacción se repite" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="1867" y="8" width="213" height="67" as="geometry" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Fin" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="2130" y="17" width="52" height="49" as="geometry" />
+        <mxCell id="6" value="ChatGPT procesa el mensaje" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="749.5" y="460" width="170" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="tuEmhFaPXba0xgQvImrL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="ChatGPT genera una respuesta" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="746" y="577" width="177" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="tuEmhFaPXba0xgQvImrL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="834.5" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="8" value="El chatbot muestra &#xa;la respuesta al usuario" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="761.5" y="680" width="146" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="tuEmhFaPXba0xgQvImrL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Finaliza la Conversación" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="744.5" y="1010" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Fin" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="808.5" y="1080" width="52" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="tuEmhFaPXba0xgQvImrL-33" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="1061" y="769" as="targetPoint" />
+            <mxPoint x="893" y="894" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="970" y="894" />
+              <mxPoint x="970" y="385" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+        <mxCell id="tuEmhFaPXba0xgQvImrL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuEmhFaPXba0xgQvImrL-31" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuEmhFaPXba0xgQvImrL-36" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuEmhFaPXba0xgQvImrL-34">
+          <mxGeometry x="-0.211" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="7" target="8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="9" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.01;entryY=0.5;" edge="1" parent="1" source="10" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="tuEmhFaPXba0xgQvImrL-31" value="¿La respuesta resolvió el problema?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="830" width="115" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
